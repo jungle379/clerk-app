@@ -91,6 +91,17 @@ const Main = () => (
         </a>
       </Link>
     </div>
+      <div>
+        <h1>
+          <Link href="../result">今週の予想</Link>
+        </h1>
+        <h2>
+          <Link href="../memo">好走記録</Link>
+        </h2>
+	      <h3>
+	        <Link href="../trend">傾向</Link>
+	      </h3>
+      </div>
   </main>
 );
 
