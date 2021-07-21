@@ -90,9 +90,7 @@ const Main = () => (
           <span className={styles.linkText}>Read NextJS documentation</span>
         </a>
       </Link>
-    </div>
-      <div>
-        <h1>
+      {/* <h1>
           <Link href="../result">今週の予想</Link>
         </h1>
         <h2>
@@ -100,8 +98,8 @@ const Main = () => (
         </h2>
 	      <h3>
 	        <Link href="../trend">傾向</Link>
-	      </h3>
-      </div>
+	      </h3> */}
+    </div>
   </main>
 );
 
