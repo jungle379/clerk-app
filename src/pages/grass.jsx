@@ -1,8 +1,7 @@
 import Link from "next/link";
-import Layout from "../src/components/layout";
 
 const Grass = () => {
-  return <Layout>
+  return <>
     <div>芝の勝利馬</div>
     <h1>
     <li>ビアンフェ</li>
@@ -45,7 +44,7 @@ const Grass = () => {
       <ul>良馬場より多少渋った方が伸びるタイプ。上がりタイムを求められるコンディションよりじわっと長い末脚を使う場合にフィットする。ダービートライアルにルメールも騎乗。</ul>
       </h5>
 
-    </Layout>;
+    </>;
 };
 
 export default Grass;
