@@ -97,7 +97,7 @@ const Main = () => (
           <Link href="../memo">好走記録</Link>
         </h2>
 	      <h3>
-	        <Link href="../trend">傾向</Link>
+	        <Link href="/">傾向</Link>
 	      </h3>
     </div>
   </main>
