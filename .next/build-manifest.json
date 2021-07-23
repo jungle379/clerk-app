@@ -24,15 +24,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/race1": [
+    "/grass": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/race1.js"
+      "static/chunks/pages/grass.js"
     ],
-    "/result": [
+    "/memo": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/result.js"
+      "static/chunks/pages/memo.js"
+    ],
+    "/sand": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/sand.js"
     ]
   },
   "ampFirstPages": []

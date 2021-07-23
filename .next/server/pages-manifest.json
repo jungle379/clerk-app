@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/result": "pages/result.js",
-  "/race1": "pages/race1.js"
+  "/memo": "pages/memo.js",
+  "/grass": "pages/grass.js",
+  "/sand": "pages/sand.js"
 }
