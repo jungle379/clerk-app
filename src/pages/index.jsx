@@ -90,15 +90,15 @@ const Main = () => (
           <span className={styles.linkText}>Read NextJS documentation</span>
         </a>
       </Link>
-      <h1>
-          <Link href="../result">今週の予想</Link>
-        </h1>
-        <h2>
-          <Link href="../memo">好走記録</Link>
-        </h2>
-	      <h3>
-	        <Link href="/">傾向</Link>
-	      </h3>
+      <div>
+          <Link href="../result">・今週の予想</Link>
+        </div>
+        <div>
+          <Link href="../memo">・好走記録</Link>
+        </div>
+	      <div>
+	        <Link href="/">・傾向</Link>
+	      </div>
     </div>
   </main>
 );
