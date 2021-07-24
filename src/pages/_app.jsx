@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import "tailwindcss/tailwind.css";
 
 import { ClerkProvider, RedirectToSignIn, SignedIn, SignedOut } from '@clerk/clerk-react'
 import { useRouter } from 'next/router'
