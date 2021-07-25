@@ -10,9 +10,9 @@ const Memo = () => {
     <h1>
     <Link href="../grass">芝</Link>
     </h1>
-    <h2>
+    <h1>
     <Link href="../sand">ダート</Link>
-    </h2>
+    </h1>
     </>;
 };
 
