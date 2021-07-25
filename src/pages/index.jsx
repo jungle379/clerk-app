@@ -97,7 +97,7 @@ const Main = () => (
           <Link href="../memo">・好走記録</Link>
         </div>
 	      <div>
-	        <Link href="/">・傾向</Link>
+	        <Link href="../type">・血統、産駒</Link>
 	      </div>
     </div>
   </main>
