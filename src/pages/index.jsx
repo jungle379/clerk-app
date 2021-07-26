@@ -122,7 +122,7 @@ const Footer = () => (
 const Home = () => (
   <div className={styles.container}>
     <Head>
-      <title>トップページ/title>
+      <title>トップページ</title>
       <link rel="icon" href="/favicon.ico" />
       <meta
         name="viewport"
