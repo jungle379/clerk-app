@@ -4,9 +4,9 @@ import Head from "next/head";
 const Type = () => {
   return <>
   <Head>
-    <title>種目別好走馬Index</title>
+    <title>好走できる種牡馬一覧</title>
   </Head>
-    <div>勝利馬メモ</div>
+    <div>代表種牡馬一覧</div>
     <h1>
     <Link href="../grass">芝</Link>
     </h1>
