@@ -9,6 +9,8 @@ const Type = () => {
     <div>代表種牡馬一覧(種付け費用順)</div>
     <div><Link href="/">ロードカナロア</Link></div>
     <div><Link href="/">キズナ</Link></div>
+    <div><Link href="">エピファネイア</Link></div>
+    <div><Link href="">ドゥラメンテ</Link></div>
     </>;
 };
 
