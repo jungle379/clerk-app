@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/type": "pages/type.js",
-  "/memo": "pages/memo.js"
+  "/memo": "pages/memo.js",
+  "/type": "pages/type.js"
 }
