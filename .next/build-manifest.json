@@ -24,10 +24,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/memo": [
+    "/seeds/deepimpact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/memo.js"
+      "static/chunks/pages/seeds/deepimpact.js"
     ],
     "/type": [
       "static/chunks/webpack.js",
