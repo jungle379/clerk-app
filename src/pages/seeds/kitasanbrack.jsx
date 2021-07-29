@@ -4,9 +4,9 @@ import Head from "next/head"
 const Seeds = () =>{
   return <>
   <Head>
-    <title>ディープインパクト</title>
+    <title>キタサンブラック</title>
   </Head>
-    <div>ディープインパクト(ラストクロップ)</div>
+    <div>キタサンブラック</div>
     <div>
       <li>代表産駒</li>
       <ul>3歳</ul>

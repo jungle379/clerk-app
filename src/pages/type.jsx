@@ -13,6 +13,7 @@ const Type = () => {
     <div><Link href="">エピファネイア</Link></div>
     <div><Link href="">ドゥラメンテ</Link></div>
     <div><Link href="">モーリス</Link></div>
+    <div><Link href="/seeds/kitasanbrack">キタサンブラック</Link></div>
     </>;
 };
 
