@@ -8,11 +8,12 @@ const Type = () => {
   </Head>
     <div>代表種牡馬一覧(2021年種付け費用順)</div>
     <div><Link href="/seeds/deepimpact">ディープインパクト(ラストクロップ・６頭)</Link></div>
-    <div><Link href="/">ロードカナロア</Link></div>
+    <div><Link href="/seeds/Lordkanaloa">ロードカナロア</Link></div>
     <div><Link href="/">キズナ</Link></div>
     <div><Link href="">エピファネイア</Link></div>
     <div><Link href="">ドゥラメンテ</Link></div>
     <div><Link href="">モーリス</Link></div>
+    <div><Link href="/">ヘニーヒューズ</Link></div>
     <div><Link href="/seeds/kitasanbrack">キタサンブラック</Link></div>
     </>;
 };
