@@ -4,15 +4,17 @@ import Head from "next/head"
 const Seeds = () =>{
   return <>
   <Head>
-    <title>キタサンブラック</title>
+    <title>ロードカナロア</title>
   </Head>
-    <div>キタサンブラック</div>
+    <div>ロードカナロア</div>
     <div>
       <li>代表産駒</li>
       <ul>3歳</ul>
-      <ul>・ランドオブリバティ：</ul>
+      <ul>・：</ul>
       <ul>4歳</ul>
-      <ul>・コントレイル：ホープフルS、牡馬三冠</ul>
+      <ul>・:</ul>
+      <ul>5歳</ul>
+      <ul>・:</ul>
     </div>
     <div>
       
