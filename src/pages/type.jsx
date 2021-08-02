@@ -17,6 +17,16 @@ const ITEMS = [
 },{
     href: "/",
     title: "ドゥラメンテ"
+},
+{
+  href: "/",
+  title: "モーリス"
+},{
+  href: "/",
+  title: "ヘニーヒューズ"
+},{
+  href: "/seeds/kitasanbrack",
+  title: "キタサンブラック"
 }
 ];
 
@@ -44,11 +54,17 @@ const Type = () => {
     ),(
       <div><a href={item.href}>
         <h1>{item.title}</h1></a></div>
+    ),(
+      <div><a href={item.href}>
+        <h1>{item.title}</h1></a></div>
+    ),(
+      <div><a href={item.href}>
+        <h1>{item.title}</h1></a></div>
+    ),(
+      <div><a href={item.href}>
+        <h1>{item.title}</h1></a></div>
     )
   })}
-    <div><Link href="/">モーリス</Link></div>
-    <div><Link href="/">ヘニーヒューズ</Link></div>
-    <div><Link href="/seeds/kitasanbrack">キタサンブラック</Link></div>
     </>;
 };
 
