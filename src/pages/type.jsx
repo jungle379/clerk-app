@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Head from "next/head";
 
 const ITEMS = [
@@ -17,8 +16,7 @@ const ITEMS = [
 },{
     href: "/",
     title: "ドゥラメンテ"
-},
-{
+},{
   href: "/",
   title: "モーリス"
 },{
