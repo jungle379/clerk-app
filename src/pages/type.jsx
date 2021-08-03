@@ -37,7 +37,7 @@ const Type = () => {
   {ITEMS.map(item => {
     return (
       <div><a href={item.href}>
-        <h1>{item.title}</h1>
+        <li>{item.title}</li>
       </a></div>
     )
   })}
