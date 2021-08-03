@@ -38,29 +38,7 @@ const Type = () => {
     return (
       <div><a href={item.href}>
         <h1>{item.title}</h1>
-        </a></div>
-    ),
-    (
-      <div><a href={item.href}>
-        <h1>{item.title}</h1></a></div>
-    ),(
-      <div><a href={item.href}>
-        <h1>{item.title}</h1></a></div>
-    ),(
-      <div><a href={item.href}>
-        <h1>{item.title}</h1></a></div>
-    ),(
-      <div><a href={item.href}>
-        <h1>{item.title}</h1></a></div>
-    ),(
-      <div><a href={item.href}>
-        <h1>{item.title}</h1></a></div>
-    ),(
-      <div><a href={item.href}>
-        <h1>{item.title}</h1></a></div>
-    ),(
-      <div><a href={item.href}>
-        <h1>{item.title}</h1></a></div>
+      </a></div>
     )
   })}
     </>;
