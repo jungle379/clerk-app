@@ -14,6 +14,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -24,15 +29,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/result": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/result.js"
+    ],
     "/seeds/deepimpact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/seeds/deepimpact.js"
-    ],
-    "/type": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/type.js"
     ]
   },
   "ampFirstPages": []

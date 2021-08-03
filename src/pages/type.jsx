@@ -8,13 +8,13 @@ const ITEMS = [
     href: "/seeds/Lordkanaloa",
     title: "ロードカナロア"
 },{
-    href: "/",
+    href: "/seeds/kizuna",
     title: "キズナ"
 },{
-    href: "/",
+    href: "/seeds/epifaneia",
     title: "エピファネイア"
 },{
-    href: "/",
+    href: "/seeds/duramente",
     title: "ドゥラメンテ"
 },{
   href: "/",
