@@ -1,6 +1,7 @@
 
 const Race1 = () => {
   return <>
+  <title>エルムS・函館1700m</title>
     <div>エルムS・函館1700m(砂)</div>
     <div>馬場傾向</div>
     <li>小回り一周のレース。コーナーが鋭角気味</li>
