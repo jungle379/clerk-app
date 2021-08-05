@@ -8,7 +8,7 @@ const Result = () =>{
   </Head>
     <div>今週の重賞一覧</div>
     <h1 className="text-6xl">
-    <Link href="../race1">宝塚記念(G1)/6月27日/15:40</Link>
+    <Link href="../race1">エルムS(G3)・ダート1700m/8月8日/15:35</Link>
     </h1>
     {/* <h2>
     <Link href="../race2"></Link>
