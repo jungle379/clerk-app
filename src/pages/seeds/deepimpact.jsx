@@ -15,6 +15,9 @@ const Seeds = () =>{
       <ul>4歳</ul>
       <ul>・コントレイル：ホープフルS、牡馬三冠</ul>
       <ul>牝馬</ul>
+      <ul>3歳</ul>
+      <ul>4歳</ul>
+      <ul>5歳</ul>
     </div>
     <div>特徴</div>
     <div>
