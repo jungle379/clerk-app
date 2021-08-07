@@ -17,7 +17,7 @@ const ITEMS = [
     href: "/seeds/duramente",
     title: "ドゥラメンテ"
 },{
-  href: "/",
+  href: "/seeds/maurice",
   title: "モーリス"
 },{
   href: "/seeds/hennyhughes",
