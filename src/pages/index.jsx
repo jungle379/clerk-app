@@ -99,6 +99,9 @@ const Main = () => (
 	      <div>
 	        <Link href="../type">・血統、産駒</Link>
 	      </div>
+        <div>
+          <Link href="../fields">・各競馬場</Link>
+        </div>
     </div>
   </main>
 );
