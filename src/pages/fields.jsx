@@ -4,44 +4,44 @@ import Link from "next/link";
 const ITEMS = [
   {
     href: "/",
-    title: "1"
+    title: "札幌競馬場"
 },{
     href: "/",
-    title: "2"
+    title: "函館競馬場"
 },{
     href: "/",
-    title: "3"
+    title: "福島競馬場"
 },{
     href: "/",
-    title: "4"
+    title: "新潟競馬場"
 },{
     href: "/",
-    title: "5"
+    title: "東京競馬場"
 },{
   href: "/",
-  title: "6"
+  title: "中山競馬場"
 },{
   href: "/",
-  title: "7"
+  title: "中京競馬場"
 },{
   href: "/",
-  title: "8"
+  title: "京都競馬場"
 },{
   href: "/",
-  title: "9"
+  title: "阪神競馬場"
 },{
   href: "/",
-  title: "10"
+  title: "小倉競馬場"
 }
 ];
 
 const Fields = () => {
   return <>
   <Head>
-    <title>***</title>
+    <title>競馬場ごとの傾向</title>
   </Head>
-  <h1>***</h1>
-  <div>***</div>
+  <h1>各競馬場ごとの傾向</h1>
+  <h2>JRA・中央競馬場</h2>
   {ITEMS.map(item => {
     return (
       <div><a href={item.href}>
@@ -50,8 +50,8 @@ const Fields = () => {
       </div>
     )
   })}
-  <h2>地方</h2>
-   <Link href="/">***</Link>
+  <h2>地方競馬場</h2>
+   <Link href="/">地方の競馬場一覧へ</Link>
     </>;
 };
 
