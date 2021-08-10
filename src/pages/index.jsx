@@ -50,7 +50,7 @@ const Main = () => (
     <h1 className={styles.title}>Welcome to your new app</h1>
     <p className={styles.description}>Sign up for an account to get started</p>
 
-    {/* <div className={styles.cards}>
+    <div className={styles.cards}>
       <div className={styles.card}>
         <SignedIn>
           <ClerkFeatures />
@@ -77,7 +77,7 @@ const Main = () => (
           </a>
         </Link>
       </div>
-    </div> */}
+    </div>
 
     <div className={styles.links}>
       <Link href="https://docs.clerk.dev">
