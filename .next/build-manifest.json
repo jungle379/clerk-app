@@ -33,16 +33,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/fields.js"
-    ],
-    "/race1": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/race1.js"
-    ],
-    "/result": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/result.js"
     ]
   },
   "ampFirstPages": []
