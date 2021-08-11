@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/race2": "pages/race2.js",
-  "/fields": "pages/fields.js",
-  "/sights/tokyo": "pages/sights/tokyo.js"
+  "/sights/tokyo": "pages/sights/tokyo.js",
+  "/": "pages/index.js"
 }

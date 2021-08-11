@@ -29,16 +29,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/fields": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/fields.js"
-    ],
-    "/race2": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/race2.js"
-    ],
     "/sights/tokyo": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

@@ -18,7 +18,7 @@ const ITEMS = [
     href: "/sights/tokyo",
     title: "東京競馬場"
 },{
-  href: "/",
+  href: "/sights/nakayama",
   title: "中山競馬場"
 },{
   href: "/",
@@ -27,7 +27,7 @@ const ITEMS = [
   href: "/",
   title: "京都競馬場"
 },{
-  href: "/",
+  href: "/sights/hanshin",
   title: "阪神競馬場"
 },{
   href: "/",
