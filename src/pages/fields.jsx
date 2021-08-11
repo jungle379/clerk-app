@@ -3,16 +3,16 @@ import Link from "next/link";
 
 const ITEMS = [
   {
-    href: "/",
+    href: "/sights/sapporo",
     title: "札幌競馬場"
 },{
-    href: "/",
+    href: "/sights/hakodate",
     title: "函館競馬場"
 },{
-    href: "/",
+    href: "/sights/hukushima",
     title: "福島競馬場"
 },{
-    href: "/",
+    href: "/sights/nigata",
     title: "新潟競馬場"
 },{
     href: "/sights/tokyo",
@@ -21,16 +21,16 @@ const ITEMS = [
   href: "/sights/nakayama",
   title: "中山競馬場"
 },{
-  href: "/",
+  href: "/sights/tyuukyo",
   title: "中京競馬場"
 },{
-  href: "/",
+  href: "/sights/kyoto",
   title: "京都競馬場"
 },{
   href: "/sights/hanshin",
   title: "阪神競馬場"
 },{
-  href: "/",
+  href: "/sights/kokura",
   title: "小倉競馬場"
 }
 ];
