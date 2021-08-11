@@ -5,10 +5,10 @@ const Tokyo = () => {
 
 return <>
 <Head>
-<title>***</title>
+<title>東京競馬場について</title>
 </Head>
 <div>
-<h1>***</h1>
+<h1>東京競馬場</h1>
 <h2>**</h2>
 </div>
 <h2>*</h2>
@@ -23,7 +23,7 @@ return <>
 <ul>**</ul>
 <li>***</li>
 
-<Link href="/">***</Link>
+<Link href="/">JRA公式サイトへ</Link>
 </>;
 }
 
