@@ -39,10 +39,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/race2.js"
     ],
-    "/result": [
+    "/sights/tokyo": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/result.js"
+      "static/chunks/pages/sights/tokyo.js"
     ]
   },
   "ampFirstPages": []

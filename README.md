@@ -32,33 +32,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-import Head from "next/head";
-import Link from "next/link";
-
-const Tokyo = () => {
-
-return <>
-<Head>
-<title>***</title>
-</Head>
-<div>
-<h1>***</h1>
-<h2>**</h2>
-</div>
-<h2>*</h2>
-<li>***</li>
-<ul>**</ul>
-<ul>**</ul>
-<li>***</li>
-
-<h2>*</h2>
-<li>***</li>
-<ul>**</ul>
-<ul>**</ul>
-<li>***</li>
-
-<Link href="/">***</Link>
-}
-
-export default Tokyo;

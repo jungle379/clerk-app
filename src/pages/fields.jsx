@@ -15,7 +15,7 @@ const ITEMS = [
     href: "/",
     title: "新潟競馬場"
 },{
-    href: "/",
+    href: "/sights/tokyo",
     title: "東京競馬場"
 },{
   href: "/",
