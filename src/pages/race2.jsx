@@ -2,7 +2,9 @@ import Head from "next/head";
 
 const Race2 = () => {
   return <>
-  <Head><title>関屋記念・1600m</title></Head>
+  <Head>
+    <title>関屋記念・1600m</title>
+    </Head>
     <div>関屋記念・新潟・芝1600m</div>
     <div>有力馬一覧</div>
     <h1>ソングライン(池添)</h1>

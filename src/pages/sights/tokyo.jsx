@@ -28,6 +28,6 @@ return <>
 
 <Link href="/">JRA公式サイトへ</Link>
 </>;
-}
+};
 
 export default Tokyo;

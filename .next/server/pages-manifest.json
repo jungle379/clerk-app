@@ -3,15 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/sights/tokyo": "pages/sights/tokyo.js",
-  "/": "pages/index.js",
-  "/fields": "pages/fields.js",
-  "/sights/sapporo": "pages/sights/sapporo.js",
-  "/sights/hakodate": "pages/sights/hakodate.js",
-  "/sights/hukushima": "pages/sights/hukushima.js",
-  "/sights/nigata": "pages/sights/nigata.js",
-  "/sights/nakayama": "pages/sights/nakayama.js",
-  "/sights/tyuukyo": "pages/sights/tyuukyo.js",
-  "/sights/kyoto": "pages/sights/kyoto.js",
-  "/sights/hanshin": "pages/sights/hanshin.js",
-  "/sights/kokura": "pages/sights/kokura.js"
+  "/": "pages/index.js"
 }

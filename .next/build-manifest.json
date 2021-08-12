@@ -29,60 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/fields": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/fields.js"
-    ],
-    "/sights/hakodate": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sights/hakodate.js"
-    ],
-    "/sights/hanshin": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sights/hanshin.js"
-    ],
-    "/sights/hukushima": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sights/hukushima.js"
-    ],
-    "/sights/kokura": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sights/kokura.js"
-    ],
-    "/sights/kyoto": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sights/kyoto.js"
-    ],
-    "/sights/nakayama": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sights/nakayama.js"
-    ],
-    "/sights/nigata": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sights/nigata.js"
-    ],
-    "/sights/sapporo": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sights/sapporo.js"
-    ],
     "/sights/tokyo": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/sights/tokyo.js"
-    ],
-    "/sights/tyuukyo": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sights/tyuukyo.js"
     ]
   },
   "ampFirstPages": []
