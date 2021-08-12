@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/sights/tokyo": [
+    "/fields": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/sights/tokyo.js"
+      "static/chunks/pages/fields.js"
     ]
   },
   "ampFirstPages": []
