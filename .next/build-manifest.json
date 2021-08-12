@@ -29,10 +29,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/fields": [
+    "/race1": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/fields.js"
+      "static/chunks/pages/race1.js"
+    ],
+    "/result": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/result.js"
+    ],
+    "/sights/sapporo": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/sights/sapporo.js"
     ]
   },
   "ampFirstPages": []
