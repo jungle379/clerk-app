@@ -14,11 +14,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -29,20 +24,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/race1": [
+    "/race2": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/race1.js"
+      "static/chunks/pages/race2.js"
     ],
     "/result": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/result.js"
-    ],
-    "/sights/sapporo": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/sights/sapporo.js"
     ]
   },
   "ampFirstPages": []

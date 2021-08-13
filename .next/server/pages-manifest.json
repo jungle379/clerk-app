@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/sights/sapporo": "pages/sights/sapporo.js",
-  "/": "pages/index.js",
   "/result": "pages/result.js",
-  "/race1": "pages/race1.js"
+  "/race2": "pages/race2.js"
 }
