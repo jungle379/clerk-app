@@ -47,10 +47,11 @@ const SignupLink = () => (
 // https://docs.clerk.dev/frontend/react/signedin-and-signedout
 const Main = () => (
   <main className={styles.main}>
-    <h1 className={styles.title}>Welcome to your new app</h1>
+    <h1 className={styles.title}>Welcome to Horse RacingMemo</h1>
+    <Link href="../auther">サイト作成者について</Link>
     <p className={styles.description}>Sign up for an account to get started</p>
 
-    <div className={styles.cards}>
+    {/* <div className={styles.cards}>
       <div className={styles.card}>
         <SignedIn>
           <ClerkFeatures />
@@ -77,7 +78,7 @@ const Main = () => (
           </a>
         </Link>
       </div>
-    </div>
+    </div> */}
 
     <div className={styles.links}>
       <Link href="https://docs.clerk.dev">
@@ -90,6 +91,7 @@ const Main = () => (
           <span className={styles.linkText}>Read NextJS documentation</span>
         </a>
       </Link>
+      <h1>記録・分析などなど</h1>
       <div>
           <Link href="../result">・今週の予想</Link>
         </div>
