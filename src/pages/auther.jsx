@@ -11,7 +11,7 @@ const Auther = () =>{
     <Link href="/">Facebook</Link>
     </h2>
     <h2>
-    <Link href="/">Twitter</Link>
+    <Link href="https://twitter.com/hirokimorino">Twitter</Link>
     </h2>
     </>;
 };
