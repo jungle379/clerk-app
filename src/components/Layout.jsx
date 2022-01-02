@@ -1,10 +1,5 @@
-import Header from "./Header";
-
-const Layout = ({ children }) => (
-  <>
-    <Header />
-    <main>{children}</main>
-  </>
-);
+function Layout({ children }) {
+  return <div>{children}</div>;
+}
 
 export default Layout;
