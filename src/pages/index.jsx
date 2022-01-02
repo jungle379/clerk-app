@@ -47,13 +47,7 @@ const Home = () => {
         <title>トップページ</title>
       </Head>
       <div className="h-screen bg-green-300">
-        <div className="text-6xl font-bold text-center text-pink-500">
-          Welcome to Horse RacingMemo
-        </div>
         <Header />
-        <Link href="../auther">
-          <a>サイト作成者について</a>
-        </Link>
         {/* <div className="">
         <SignedIn>
           <ClerkFeatures />
@@ -63,8 +57,8 @@ const Home = () => {
         </SignedOut>
       </div> */}
 
-        <div className="">
-          <h1>記録・分析などなど</h1>
+        <div className="text-4xl text-center">記録・分析などなど</div>
+        <div className="flex">
           <div>
             <Link href="../result">・今週の予想</Link>
           </div>
@@ -77,6 +71,11 @@ const Home = () => {
           <div>
             <Link href="../fields">・各競馬場の特徴</Link>
           </div>
+        </div>
+        <div>
+          <Link href="../auther">
+            <a>サイト作成者について</a>
+          </Link>
         </div>
       </div>
       <Footer />
