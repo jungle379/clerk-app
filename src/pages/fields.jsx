@@ -3,7 +3,7 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
-const ITEMS = [
+const SightS = [
   {
     href: "/sights/sapporo",
     title: "札幌競馬場",
@@ -34,7 +34,7 @@ const ITEMS = [
   },
   {
     href: "/sights/kyoto",
-    title: "京都競馬場",
+    title: "京都競馬場(改修中)",
   },
   {
     href: "/sights/hanshin",
@@ -52,21 +52,25 @@ const Fields = () => {
       <Head>
         <title>競馬場ごとの傾向</title>
       </Head>
-      <div className="h-screen bg-green-300">
+      <div className="h-full bg-green-300">
         <Header />
-        <h1>各競馬場ごとの傾向</h1>
-        <h2>JRA・中央競馬場</h2>
-        {ITEMS.map((item) => {
+        <h1 className="text-4xl my-10 mx-40 font-bold">各競馬場ごとの傾向</h1>
+        <h2 className="mx-40 text-2xl">JRA・中央競馬場</h2>
+        {SightS.map((item) => {
           return (
-            <div>
+            <div className="mx-40 text-2xl my-5 text-blue-500">
               <a href={item.href}>
                 <li>{item.title}</li>
               </a>
             </div>
           );
         })}
-        <h2>地方競馬場</h2>
-        <Link href="/">地方の競馬場一覧へ</Link>
+        <h2 className="mx-40 text-2xl my-10">地方競馬場</h2>
+        <h3 className="mx-40 text-2xl text-blue-500 mt-10">
+          <Link href="/">
+            <a>地方の競馬場一覧へ</a>
+          </Link>
+        </h3>
       </div>
       <Footer />
     </>
