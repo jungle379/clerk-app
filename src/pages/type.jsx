@@ -21,7 +21,7 @@ const ITEMS = [
   },
   {
     href: "/seeds/duramente",
-    title: "ドゥラメンテ",
+    title: "ドゥラメンテ(22年から種付け無し)",
   },
   {
     href: "/seeds/maurice",
@@ -35,6 +35,14 @@ const ITEMS = [
     href: "/seeds/kitasanbrack",
     title: "キタサンブラック",
   },
+  {
+    href: "/seeds/kitasanbrack",
+    title: "シルバーステート",
+  },
+  {
+    href: "/seeds/kitasanbrack",
+    title: "キングマン",
+  },
 ];
 
 const Type = () => {
@@ -43,12 +51,14 @@ const Type = () => {
       <Head>
         <title>好走できる種牡馬一覧</title>
       </Head>
-      <div className="h-screen bg-green-300">
+      <div className="h-full bg-green-300">
         <Header />
-        <div>代表種牡馬一覧(2021年種付け費用順)</div>
+        <div className="text-4xl font-bold mx-40 my-10">
+          代表種牡馬一覧(2021年種付け費用順)
+        </div>
         {ITEMS.map((item) => {
           return (
-            <div>
+            <div className="text-2xl mt-10 mx-40 text-blue-500">
               <a href={item.href}>
                 <li>{item.title}</li>
               </a>

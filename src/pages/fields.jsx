@@ -54,7 +54,9 @@ const Fields = () => {
       </Head>
       <div className="h-full bg-green-300">
         <Header />
-        <h1 className="text-4xl my-10 mx-40 font-bold">各競馬場ごとの傾向</h1>
+        <h1 className="text-4xl my-10 mx-40 font-bold">
+          各競馬場ごとの傾向と対策
+        </h1>
         <h2 className="mx-40 text-2xl">JRA・中央競馬場</h2>
         {SightS.map((item) => {
           return (
