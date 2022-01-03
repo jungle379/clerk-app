@@ -48,28 +48,36 @@ const Home = () => {
       </Head>
       <div className="h-screen bg-green-300">
         <Header />
-        {/* <div className="">
-        <SignedIn>
-          <ClerkFeatures />
-        </SignedIn>
-        <SignedOut>
-          <SignupLink />
-        </SignedOut>
-      </div> */}
+        <div className="">
+          <SignedIn>
+            <ClerkFeatures />
+          </SignedIn>
+          <SignedOut>
+            <SignupLink />
+          </SignedOut>
+        </div>
 
-        <div className="text-4xl text-center">記録・分析などなど</div>
+        <div className="text-4xl text-center">記録・分析など</div>
         <div className="flex">
           <div>
-            <Link href="../result">・今週の予想</Link>
+            <Link href="../result">
+              <a>・今週の予想</a>
+            </Link>
           </div>
           <div>
-            <Link href="../memo">・好走記録</Link>
+            <Link href="../memo">
+              <a>・好走記録</a>
+            </Link>
           </div>
           <div>
-            <Link href="../type">・血統、産駒</Link>
+            <Link href="../type">
+              <a>・血統、産駒</a>
+            </Link>
           </div>
           <div>
-            <Link href="../fields">・各競馬場の特徴</Link>
+            <Link href="../fields">
+              <a>・各競馬場の特徴</a>
+            </Link>
           </div>
         </div>
         <div>
