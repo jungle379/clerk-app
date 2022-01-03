@@ -14,7 +14,7 @@ const Home = () => {
         <div className="text-4xl text-center font-bold">記録・分析など</div>
         <div className="flex justify-between text-2xl my-20 mx-20">
           <div>
-            <Link href="../result">
+            <Link href="../predict">
               <a>・今週の予想</a>
             </Link>
           </div>
