@@ -1,44 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import { SignedIn, SignedOut } from "@clerk/clerk-react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
-const ClerkFeatures = () => (
-  <Link href="/user">
-    <a className="">
-      <img src="/icons/layout.svg" />
-      <div>
-        <h3>Explore features provided by Clerk</h3>
-        <p>
-          Interact with the user button, user profile, and more to preview what
-          your users will see
-        </p>
-      </div>
-      <div className="">
-        <img src="/icons/arrow-right.svg" />
-      </div>
-    </a>
-  </Link>
-);
-
-const SignupLink = () => (
-  <Link href="/sign-up">
-    <a className="">
-      <img src="/icons/user-plus.svg" />
-      <div>
-        <h3>Sign up for an account</h3>
-        <p>
-          Sign up and sign in to explore all the features provided by Clerk
-          out-of-the-box
-        </p>
-      </div>
-      <div className="">
-        <img src="/icons/arrow-right.svg" />
-      </div>
-    </a>
-  </Link>
-);
 
 const Home = () => {
   return (
@@ -48,17 +11,8 @@ const Home = () => {
       </Head>
       <div className="h-screen bg-green-300">
         <Header />
-        <div className="">
-          <SignedIn>
-            <ClerkFeatures />
-          </SignedIn>
-          <SignedOut>
-            <SignupLink />
-          </SignedOut>
-        </div>
-
-        <div className="text-4xl text-center">記録・分析など</div>
-        <div className="flex">
+        <div className="text-4xl text-center font-bold">記録・分析など</div>
+        <div className="flex justify-between text-2xl my-20 mx-20">
           <div>
             <Link href="../result">
               <a>・今週の予想</a>
@@ -80,7 +34,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="mx-20 text-2xl font-bold text-purple-400">
           <Link href="../auther">
             <a>サイト作成者について</a>
           </Link>
