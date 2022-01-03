@@ -11,11 +11,18 @@ const Predict = () => {
       </Head>
       <div className="h-screen bg-green-300">
         <Header />
-        <div className="text-4xl my-10 mx-20">今週の重賞一覧</div>
-        <div className="text-2xl mx-40">
+        <div className="text-4xl my-10 mx-20 text-pink-400 font-bold">
+          今週の重賞一覧
+        </div>
+        <div className="text-2xl mx-40 my-10 text-blue-600">
+          <h1 className="my-20">
+            <Link href="../race1">
+              <a>中山金杯(G3)15:35</a>
+            </Link>
+          </h1>
           <h2>
             <Link href="../race1">
-              スプリンターズS(G1)・芝1200m/10月3日/15:35
+              <a>京都金杯(G3)15:45</a>
             </Link>
           </h2>
           {/* <h2>
