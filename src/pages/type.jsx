@@ -41,7 +41,7 @@ const ITEMS = [
   },
   {
     href: "/seeds/kitasanbrack",
-    title: "キングマン",
+    title: "kingman",
   },
 ];
 
@@ -53,9 +53,7 @@ const Type = () => {
       </Head>
       <div className="h-full bg-green-300">
         <Header />
-        <div className="text-4xl font-bold mx-40 my-10">
-          代表種牡馬一覧(2021年種付け費用順)
-        </div>
+        <div className="text-4xl font-bold mx-40 my-10">代表種牡馬一覧</div>
         {ITEMS.map((item) => {
           return (
             <div className="text-2xl mt-10 mx-40 text-blue-500">
