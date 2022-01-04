@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Sidevar from "../components/sidevar";
 
 const SightS = [
   {
@@ -54,25 +55,28 @@ const Fields = () => {
       </Head>
       <div className="h-full bg-green-300">
         <Header />
-        <h1 className="text-4xl my-10 mx-40 font-bold">
-          各競馬場ごとの傾向と対策
-        </h1>
-        <h2 className="mx-40 text-2xl">JRA・中央競馬場</h2>
-        {SightS.map((item) => {
-          return (
-            <div className="mx-40 text-2xl my-5 text-blue-500">
-              <a href={item.href}>
-                <li>{item.title}</li>
-              </a>
-            </div>
-          );
-        })}
-        <h2 className="mx-40 text-2xl my-10">地方競馬場</h2>
-        <h3 className="mx-40 text-2xl text-blue-500 mt-10">
-          <Link href="/">
-            <a>地方の競馬場一覧へ</a>
-          </Link>
-        </h3>
+        <div className="flex py-5">
+          <Sidevar />
+          <div className="font-bold">
+            <div className="text-2xl">各競馬場ごとの傾向と対策</div>
+            <h1 className="text-2xl my-10 mx-5">JRA・中央競馬場</h1>
+            {SightS.map((item) => {
+              return (
+                <div className="mx-5 my-5 text-blue-500">
+                  <a href={item.href}>
+                    <li>{item.title}</li>
+                  </a>
+                </div>
+              );
+            })}
+            <h2 className="text-2xl my-10">地方競馬場</h2>
+            <h3 className="mx-5 text-blue-500 mt-10">
+              <Link href="/">
+                <a>地方の競馬場一覧へ</a>
+              </Link>
+            </h3>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
