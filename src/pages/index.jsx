@@ -12,7 +12,7 @@ const Home = () => {
       <div className="h-screen bg-green-300">
         <Header />
         <div className="text-4xl text-center font-bold">記録・分析など</div>
-        <div className="flex justify-between text-2xl my-20 mx-20">
+        <div className="flex justify-between text-2xl my-20 mx-20 px-40">
           <div className="">
             <Link href="../predict">
               <a>・今週の予想</a>
