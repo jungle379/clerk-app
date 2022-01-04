@@ -19,11 +19,6 @@ const Home = () => {
             </Link>
           </div>
           <div>
-            <Link href="../memo">
-              <a>・好走記録</a>
-            </Link>
-          </div>
-          <div>
             <Link href="../type">
               <a>・血統、産駒</a>
             </Link>
