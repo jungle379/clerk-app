@@ -33,6 +33,11 @@ const Home = () => {
                 </Link>
               </div>
             </div>
+            <div className="text-2xl text-blue-800 hover:text-red-400 font-bold">
+              <Link href="../recommend">
+                <a>・一押しウマ</a>
+              </Link>
+            </div>
           </div>
         </div>
         <Footer />
