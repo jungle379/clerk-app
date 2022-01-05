@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 
-const SightS = [
+const Sights = [
   {
     href: "/sights/sapporo",
     title: "札幌競馬場",
@@ -60,7 +60,7 @@ const Fields = () => {
           <div className="font-bold">
             <div className="text-2xl">各競馬場ごとの傾向と対策</div>
             <h1 className="text-2xl my-10 mx-5">JRA・中央競馬場</h1>
-            {SightS.map((item) => {
+            {Sights.map((item) => {
               return (
                 <div className="mx-5 my-5 text-blue-500">
                   <a href={item.href}>
