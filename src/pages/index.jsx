@@ -14,9 +14,9 @@ const Home = () => {
         <Header />
         <div className="flex">
           <Sidevar />
-          <div className="text-4xl mx-20 font-bold w-4/5">
+          <div className="text-4xl mx-10 font-bold w-4/5">
             記録・分析など
-            <div className="flex justify-between text-2xl my-20 px-10">
+            <div className="flex justify-between text-2xl my-20 px-5">
               <div className="hover:text-red-400">
                 <Link href="../predict">
                   <a>・今週の予想</a>
@@ -33,7 +33,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="text-2xl text-blue-800 hover:text-red-400 font-bold">
+            <div className="text-2xl hover:text-red-400 font-bold px-5">
               <Link href="../recommend">
                 <a>・一押しウマ</a>
               </Link>
