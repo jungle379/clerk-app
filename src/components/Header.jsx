@@ -32,7 +32,7 @@ const SignupLink = () => (
 const Header = () => (
   <>
     <div className="flex justify-between">
-      <div className="text-6xl font-bold text-pink-500 mx-40 my-10 py-[15px]">
+      <div className="md:text-6xl font-bold text-pink-500 mx-40 my-10 py-[15px]">
         Welcome to Horse Racing Memo
       </div>
       <div className="flex mr-10 my-20">
