@@ -12,7 +12,7 @@ const Home = () => {
       </Head>
       <div className="bg-green-300 h-screen">
         <Header />
-        <div className="flex">
+        <div className="py-5 flex">
           <Sidevar />
           <div className="text-4xl mx-10 font-bold w-4/5">
             記録・分析など
