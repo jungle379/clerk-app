@@ -12,7 +12,7 @@ const Home = () => {
       </Head>
       <div className="bg-green-300 h-screen">
         <Header />
-        <div className="py-5 flex">
+        <div className="py-10 flex">
           <Sidevar />
           <div className="text-4xl mx-10 font-bold w-4/5">
             記録・分析など
@@ -33,10 +33,22 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="text-2xl hover:text-red-400 font-bold px-5">
-              <Link href="../recommend">
-                <a>・一押しウマ</a>
-              </Link>
+            <div className="flex justify-between text-2xl my-20">
+              <div className="text-2xl hover:text-red-400 font-bold px-5">
+                <Link href="../recommend">
+                  <a>・一押しウマ</a>
+                </Link>
+              </div>
+              <div className="text-2xl hover:text-red-400 font-bold px-5">
+                <Link href="../overseas">
+                  <a>・海外開催</a>
+                </Link>
+              </div>
+              <div className="text-2xl hover:text-red-400 font-bold px-5">
+                <Link href="../events">
+                  <a>・各種イベント</a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
