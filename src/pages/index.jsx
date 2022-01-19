@@ -46,7 +46,7 @@ const Home = () => {
               </div>
               <div className="text-2xl hover:text-red-400 font-bold px-5">
                 <Link href="../events">
-                  <a>・各種イベント</a>
+                  <a>・新着情報</a>
                 </Link>
               </div>
             </div>
