@@ -21,7 +21,7 @@ const ITEMS = [
   },
   {
     href: "/seeds/duramente",
-    title: "ドゥラメンテ(22年から種付け無し)",
+    title: "ドゥラメンテ",
   },
   {
     href: "/seeds/maurice",
@@ -51,12 +51,12 @@ const Type = () => {
       <Head>
         <title>好走できる種牡馬一覧</title>
       </Head>
-      <div className="h-full bg-green-300">
+      <div className="h-full bg-green-300 pb-10">
         <Header />
         <div className="text-4xl font-bold mx-40 my-10">代表種牡馬一覧</div>
         {ITEMS.map((item) => {
           return (
-            <div className="text-2xl mt-10 mx-40 text-blue-500">
+            <div className="text-2xl mt-10 mx-40 text-blue-500 w-[250px]">
               <a href={item.href}>
                 <li>{item.title}</li>
               </a>
