@@ -62,15 +62,15 @@ const Fields = () => {
             <h1 className="text-2xl my-10 mx-5">JRA・中央競馬場</h1>
             {Sights.map((item) => {
               return (
-                <div className="mx-5 my-5 text-blue-500">
+                <div className="mx-10 my-5 text-blue-500">
                   <a href={item.href}>
                     <li>{item.title}</li>
                   </a>
                 </div>
               );
             })}
-            <h2 className="text-2xl my-10">地方競馬場</h2>
-            <h3 className="mx-5 text-blue-500 mt-10">
+            <h2 className="text-2xl my-10 mx-5">地方競馬場</h2>
+            <h3 className="mx-10 text-blue-500 mt-15">
               <Link href="/">
                 <a>地方の競馬場一覧へ</a>
               </Link>
