@@ -34,16 +34,16 @@ const Recommend = () => {
       </Head>
       <div className="h-auto bg-green-300">
         <Header />
-        <div className="flex">
+        <div className="flex my-10">
           <Sidevar />
-          <div className="text-4xl mx-10 mb-10 font-bold w-4/5">
+          <div className="text-4xl mx-10 font-bold w-4/5">
             一押し推奨馬
             <div className="text-2xl font-bold my-10 mx-5">
               年代別推奨馬一覧
             </div>
             {ITEMS.map((item) => {
               return (
-                <div className="text-2xl mt-10 mx-20 text-blue-500">
+                <div className="text-2xl my-10 mx-20 text-blue-500 w-1/6">
                   <a href={item.href}>
                     <li>{item.title}</li>
                   </a>
@@ -52,8 +52,8 @@ const Recommend = () => {
             })}
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };

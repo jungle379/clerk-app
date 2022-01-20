@@ -10,7 +10,7 @@ const Home = () => {
       <Head>
         <title>トップページ</title>
       </Head>
-      <div className="bg-green-300 h-screen">
+      <div className="bg-green-300 h-auto">
         <Header />
         <div className="py-10 flex">
           <Sidevar />
