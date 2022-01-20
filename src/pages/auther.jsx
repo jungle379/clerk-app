@@ -3,6 +3,12 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookSquare,
+  faTwitterSquare,
+} from "@fortawesome/free-brands-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const Auther = () => {
   return (
@@ -12,20 +18,24 @@ const Auther = () => {
       </Head>
       <div className="h-screen bg-green-300">
         <Header />
-        <div className="flex">
+        <div className="py-10 flex">
           <Sidevar />
           <div className="mx-10 text-2xl font-bold">
             当サイトの作者について
-            <h1 className="my-10 text-2xl text-blue-700">
-              <Link href="https://www.facebook.com/hiroki.morino.9/">
-                <a>Facebook</a>
-              </Link>
-            </h1>
-            <h2 className="my-10 text-2xl text-blue-700">
+            <div className="text-4xl text-blue-500 ml-20 my-10 flex">
+              <FontAwesomeIcon className="h-10 mr-5" icon={faTwitterSquare} />
+              <FontAwesomeIcon className="h-10 mr-5" icon={faChevronRight} />
               <Link href="https://twitter.com/hirokimorino">
-                <a>Twitter</a>
+                <a>twitter</a>
               </Link>
-            </h2>
+            </div>
+            <div className="text-4xl text-blue-700 ml-20 my-10">
+              <FontAwesomeIcon className="h-10 mr-5" icon={faFacebookSquare} />
+              <FontAwesomeIcon className="h-10 mr-5" icon={faChevronRight} />
+              <Link href="https://www.facebook.com/hiroki.morino.9">
+                <a>facebook</a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
