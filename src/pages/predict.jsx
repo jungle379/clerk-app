@@ -12,7 +12,7 @@ const Predict = () => {
       </Head>
       <div className="h-auto bg-green-300">
         <Header />
-        <div className="flex">
+        <div className="flex py-10">
           <Sidevar />
           <div className="md:text-4xl mx-10 text-pink-400 font-bold w-4/5">
             今週の重賞一覧
