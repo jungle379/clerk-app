@@ -10,7 +10,7 @@ const Race2 = () => {
       <li>馬場状況</li>
       <li></li>
       <div>有力馬一覧</div>
-      <h1>オーソクレース・NGH</h1>
+      <div>オーソクレース・NGH</div>
       <div>ポタジェ・ヒモ</div>
     </>
   );
