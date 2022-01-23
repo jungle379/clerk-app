@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 const Race1 = () => {
   return (
@@ -6,12 +7,15 @@ const Race1 = () => {
       <Head>
         <title>根岸S/東京/1400m</title>
       </Head>
-      <h1>根岸S/東京/1400m</h1>
-      <h2>馬場傾向</h2>
-      <li>開幕週の東京の砂で行われるが、差し馬に利点がある。</li>
-      <h1>有力馬一覧</h1>
-      <div></div>
-      <div></div>
+      <div className="bg-green-300 h-screen">
+        <div className="text-4xl">根岸S/東京/1400m</div>
+        <div className="text-2xl">馬場傾向</div>
+        <li>開幕週の東京の砂で行われるが、差し馬に利点がある。</li>
+        <div className="text-2xl">有力馬一覧</div>
+        <div></div>
+        <div></div>
+        <Footer />
+      </div>
     </>
   );
 };

@@ -32,8 +32,13 @@ const SignupLink = () => (
 const Header = () => (
   <>
     <div className="flex justify-between border-b-4">
-      <div className="md:text-6xl font-bold text-pink-500 mx-40 my-10 py-[20px]">
-        Welcome to Horse Racing Memo
+      <div>
+        <div className="md:text-6xl font-bold text-pink-500 mx-40 my-5 py-[20px]">
+          Welcome to Horse Racing Memo
+        </div>
+        <div className="md:text-2xl font-bold text-pink-500 mx-40 mb-5 py-[10px]">
+          〜勝つための競馬メモ〜
+        </div>
       </div>
       <div className="flex mr-10 my-20">
         <div className="mx-5">
