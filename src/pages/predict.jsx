@@ -27,16 +27,6 @@ const Predict = () => {
                   <a>AJCC(G2)15:45</a>
                 </Link>
               </h2>
-              {/* <h3 className="border-2 h-[120px] py-10 px-5 hover:underline">
-                <Link href="../race2">
-                  <a>シンザン記念(G3)15:45</a>
-                </Link>
-              </h3>
-              <h4 className="border-2 h-[120px] py-10 px-5 hover:underline">
-                <Link href="../race2">
-                  <a>フェアリーS(G3)15:35</a>
-                </Link>
-              </h4> */}
             </div>
           </div>
         </div>
