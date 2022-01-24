@@ -10,10 +10,11 @@ const Race1 = () => {
       <div className="bg-green-300 h-screen">
         <div className="text-4xl">根岸S/東京ダート/1400m</div>
         <div className="text-2xl">馬場傾向</div>
-        <li>開幕週の東京の砂で行われるが、差し馬に利点がある。</li>
+        <li>開幕週の東京の砂で行われるが、差し馬/追い込み馬に利点がある。</li>
+        <li>逃げ馬で残ったのはモーニンやコパノキッキングなど有力馬のみ</li>
         <div className="text-2xl">有力馬一覧</div>
-        <div></div>
-        <div></div>
+        <div>オメガレインボー・NGH</div>
+        <div>タガノビューティー・NGH</div>
         <Footer />
       </div>
     </>
