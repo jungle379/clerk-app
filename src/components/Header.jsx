@@ -1,12 +1,6 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
-// Header component using <SignedIn> & <SignedOut>.
-//
-// The SignedIn and SignedOut components are used to control rendering depending
-// on whether or not a visitor is signed in.
-//
-// https://docs.clerk.dev/frontend/react/signedin-and-signedout
 const ClerkFeatures = () => (
   <Link href="/user">
     <a className="">
@@ -36,7 +30,7 @@ const Header = () => (
         <div className="md:text-6xl font-bold text-pink-500 mx-40 my-5 py-[20px]">
           Welcome to Horse Racing Memo
         </div>
-        <div className="md:text-2xl font-bold text-pink-500 mx-40 mb-5 py-[10px]">
+        <div className="md:text-2xl font-bold text-pink-500 mx-40 mb-5 py-[10px] px-80">
           〜勝つための競馬メモ〜
         </div>
       </div>

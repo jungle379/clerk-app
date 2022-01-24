@@ -12,7 +12,7 @@ const Race2 = () => {
         <li>馬場状況</li>
         <li></li>
         <div className="text-2xl">有力馬一覧</div>
-        <div></div>
+        <div>メイケイエール</div>
         <div></div>
         <Footer />
       </div>
