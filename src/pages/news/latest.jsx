@@ -4,6 +4,49 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Sidevar from "../../components/sidevar";
 
+const ITEMS = [
+  {
+    href: "/seeds/deepimpact",
+    title: "ディープインパクト",
+  },
+  {
+    href: "/seeds/Lordkanaloa",
+    title: "ロードカナロア",
+  },
+  {
+    href: "/seeds/kizuna",
+    title: "キズナ",
+  },
+  {
+    href: "/seeds/epifaneia",
+    title: "エピファネイア",
+  },
+  {
+    href: "/seeds/duramente",
+    title: "ドゥラメンテ",
+  },
+  {
+    href: "/seeds/maurice",
+    title: "モーリス",
+  },
+  {
+    href: "/seeds/hennyhughes",
+    title: "ヘニーヒューズ",
+  },
+  {
+    href: "/seeds/kitasanbrack",
+    title: "キタサンブラック",
+  },
+  {
+    href: "/seeds/kitasanbrack",
+    title: "シルバーステート",
+  },
+  {
+    href: "/seeds/kitasanbrack",
+    title: "kingman",
+  },
+];
+
 const Latest = () => {
   return (
     <>
@@ -16,18 +59,17 @@ const Latest = () => {
           <Sidevar />
           <div className="md:text-4xl mx-10 text-pink-400 font-bold w-4/5">
             最新のニュース
-            <div className="md:text-2xl my-10 text-blue-600">
-              <h1 className="border-2 h-[120px] py-10 px-5 hover:underline">
-                <Link href="../race1">
-                  <a>根岸S(G3・ダート)15:45</a>
-                </Link>
-              </h1>
-              <h2 className="border-2 h-[120px] py-10 px-5 hover:underline">
-                <Link href="../race2">
-                  <a>シルクロードS(G3)15:35</a>
-                </Link>
-              </h2>
-            </div>
+            {ITEMS.map((item) => {
+              return (
+                <div className="md:text-2xl my-10 text-blue-600">
+                  <a href={item.href}>
+                    <div className="border-2 h-[120px] py-10 px-5 hover:underline">
+                      <li>{item.title}</li>
+                    </div>
+                  </a>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
