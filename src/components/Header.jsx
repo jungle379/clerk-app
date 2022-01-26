@@ -3,11 +3,9 @@ import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 const ClerkFeatures = () => (
   <Link href="/user">
-    <a className="">
-      <img src="/icons/layout.svg" />
-      <div>
-        <img src="/icons/arrow-right.svg" />
-      </div>
+    <a>
+      <img src="/icons/arrow-right.svg" />
+      管理ページへ
     </a>
   </Link>
 );
@@ -27,10 +25,10 @@ const Header = () => (
   <>
     <div className="flex justify-between border-b-4">
       <div>
-        <div className="md:text-6xl font-bold text-pink-500 mx-40 my-5 py-[20px]">
-          Welcome to Horse Racing Memo
+        <div className="md:text-6xl font-bold text-pink-500 mx-40 my-5 py-[20px] px-20">
+          Horse Racing Memo
         </div>
-        <div className="md:text-2xl font-bold text-pink-500 mx-40 mb-5 py-[10px] px-80">
+        <div className="md:text-2xl font-bold text-pink-500 mx-20 mb-5 py-[10px] px-80">
           〜勝つための競馬メモ〜
         </div>
       </div>

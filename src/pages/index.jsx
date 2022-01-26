@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 
 const Home = () => {
@@ -45,7 +45,7 @@ const Home = () => {
                 </Link>
               </div>
               <div className="text-2xl hover:text-red-400 font-bold mx-14">
-                <Link href="../events">
+                <Link href="../news/latest">
                   <a>・新着情報</a>
                 </Link>
               </div>
