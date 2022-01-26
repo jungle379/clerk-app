@@ -24,26 +24,6 @@ const ITEMS = [
     href: "/seeds/duramente",
     title: "ドゥラメンテ",
   },
-  {
-    href: "/seeds/maurice",
-    title: "モーリス",
-  },
-  {
-    href: "/seeds/hennyhughes",
-    title: "ヘニーヒューズ",
-  },
-  {
-    href: "/seeds/kitasanbrack",
-    title: "キタサンブラック",
-  },
-  {
-    href: "/seeds/kitasanbrack",
-    title: "シルバーステート",
-  },
-  {
-    href: "/seeds/kitasanbrack",
-    title: "kingman",
-  },
 ];
 
 const Latest = () => {
