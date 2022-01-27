@@ -5,23 +5,23 @@ import Sidevar from "../../components/sidevar";
 
 const ITEMS = [
   {
-    href: "/seeds/deepimpact",
+    href: "/",
     title: "1つ目のニュース",
   },
   {
-    href: "/seeds/Lordkanaloa",
+    href: "/",
     title: "2つ目のニュース",
   },
   {
-    href: "/seeds/kizuna",
+    href: "/",
     title: "3つ目のニュース",
   },
   {
-    href: "/seeds/epifaneia",
+    href: "/",
     title: "4つ目のニュース",
   },
   {
-    href: "/seeds/duramente",
+    href: "/",
     title: "5つ目のニュース",
   },
 ];
