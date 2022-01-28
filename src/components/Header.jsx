@@ -3,7 +3,7 @@ import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 const ClerkFeatures = () => (
   <Link href="/user">
-    <a className="text-red-600">
+    <a className="text-red-700">
       <img src="/icons/arrow-right.svg" />
       管理ページへ
     </a>
@@ -24,8 +24,8 @@ const SignupLink = () => (
 const Header = () => (
   <>
     <div className="flex justify-between border-b-4">
-      <div>
-        <div className="md:text-6xl font-bold text-pink-500 mx-40 my-5 py-[20px] px-20">
+      <div className="w-4/5">
+        <div className="md:text-6xl font-bold text-pink-500 mx-20 my-5 py-[20px] px-40">
           Horse Racing Memo
         </div>
         <div className="md:text-2xl font-bold text-pink-500 mx-20 mb-5 py-[10px] px-80">
