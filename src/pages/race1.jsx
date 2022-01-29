@@ -15,6 +15,7 @@ const Race1 = () => {
         <div className="text-2xl">有力馬一覧</div>
         <div>オメガレインボー・NGH/差し・追い込み馬</div>
         <div>タガノビューティー・NGH/差し・追い込み馬</div>
+        <div>スリーグラント・紐解き</div>
         <Footer />
       </div>
     </>
