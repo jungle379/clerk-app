@@ -10,6 +10,9 @@ const Race1 = () => {
       <div className="bg-green-300 h-screen">
         <div className="text-4xl">東京新聞杯/東京/1600m</div>
         <div className="text-2xl">馬場傾向</div>
+        <div>
+          後傾ラップになりがちだがある程度の位置にいないと差しが届かない。
+        </div>
         <div className="text-2xl">有力馬一覧</div>
         <div></div>
         <div></div>
