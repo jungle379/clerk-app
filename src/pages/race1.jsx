@@ -14,7 +14,7 @@ const Race1 = () => {
           後傾ラップになりがちだがある程度の位置にいないと差しが届かない。
         </div>
         <div className="text-2xl">有力馬一覧</div>
-        <div></div>
+        <div>カラテ</div>
         <div></div>
         <div></div>
         <Footer />
