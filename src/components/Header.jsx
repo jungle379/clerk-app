@@ -3,7 +3,7 @@ import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 const ClerkFeatures = () => (
   <Link href="/user">
-    <a className="text-red-700">
+    <a className="text-blue-700 hover:text-red-700 hover:underline">
       <img src="/icons/arrow-right.svg" />
       アカウント管理ページへ
     </a>
