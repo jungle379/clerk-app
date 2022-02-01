@@ -5,7 +5,7 @@ const ClerkFeatures = () => (
   <Link href="/user">
     <a className="text-red-700">
       <img src="/icons/arrow-right.svg" />
-      管理ページへ
+      アカウント管理ページへ
     </a>
   </Link>
 );
@@ -24,7 +24,7 @@ const SignupLink = () => (
 const Header = () => (
   <>
     <div className="flex justify-between border-b-4">
-      <div className="w-4/5">
+      <div className="w-3/4">
         <div className="md:text-6xl font-bold text-pink-500 mx-20 my-5 py-[20px] px-40">
           Horse Racing Memo
         </div>
@@ -32,8 +32,8 @@ const Header = () => (
           〜勝つための競馬メモ〜
         </div>
       </div>
-      <div className="flex mr-10 my-20">
-        <div className="mx-5">
+      <div className="flex mr-10 my-20 h-20">
+        <div className="pr-5">
           <SignedIn>
             <ClerkFeatures />
           </SignedIn>
