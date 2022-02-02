@@ -17,7 +17,7 @@ const Overseas = () => {
           <div className="md:text-4xl mx-10 text-pink-400 font-bold w-4/5">
             海外競馬
             <div className="md:text-2xl my-10 text-black">
-              海外競馬は3月のドバイまでお休みです。
+              ・海外競馬は3月のドバイまでお休みです。
             </div>
           </div>
         </div>
