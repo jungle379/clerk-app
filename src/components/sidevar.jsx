@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Sidevar = () => (
   <>
-    <div className="mx-20 w-1/5 pr-20 h-full border-r-4">
+    <div className="mx-20 w-1/5 pr-20 h-auto border-r-4">
       <h1 className="text-2xl font-bold">外部サイト</h1>
       <h2 className="font-bold my-10 text-blue-700 hover:underline">
         <Link href="https://www.netkeiba.com">

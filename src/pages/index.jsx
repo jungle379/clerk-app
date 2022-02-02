@@ -50,6 +50,13 @@ const Home = () => {
                 </Link>
               </div>
             </div>
+            <div className="flex justify-between text-2xl my-20 px-5">
+              <div className="text-2xl hover:text-red-400 font-bold">
+                <Link href="/">
+                  <a>・その他</a>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
         <Footer />
