@@ -13,7 +13,7 @@ const Race2 = () => {
         <li>ディープ系など主要産駒が好走。昨年は3番人気までで決着。</li>
         <li>馬場状況</li>
         <div className="text-2xl my-10">有力馬一覧</div>
-        <div>リューベック</div>
+        <div>フォースクエア・ヒモ</div>
         <div></div>
         <div></div>
         <Footer />
