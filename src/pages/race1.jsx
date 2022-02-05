@@ -17,6 +17,8 @@ const Race1 = () => {
         <div>カラテ</div>
         <div>ファインルージュ・NGH・ヒモ</div>
         <div>エイシンチラー・ヒモ</div>
+        <div>ホウオウアマゾン</div>
+        <div></div>
         <Footer />
       </div>
     </>
