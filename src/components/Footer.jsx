@@ -3,10 +3,10 @@ const Footer = () => (
   <>
     <div className="bg-green-300 border-t-2">
       <div className="flex justify-between mt-10 mx-10 px-20">
-        <div>このサイトについて</div>
-        <div>***</div>
-        <div>***</div>
-        <div>***</div>
+        <div className="hover:text-red-500">このサイトについて</div>
+        <div className="hover:text-red-500">スポンサー</div>
+        <div className="hover:text-red-500">***</div>
+        <div className="hover:text-red-500">***</div>
       </div>
       <div className="py-10 flex justify-center md:text-2xl">
         <a
