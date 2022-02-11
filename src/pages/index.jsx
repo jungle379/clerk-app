@@ -23,7 +23,7 @@ const Home = () => {
                 </Link>
               </div>
               <div className="text-2xl hover:text-red-400 font-bold">
-                <Link href="/">
+                <Link href="../result">
                   <a>・先週の結果</a>
                 </Link>
               </div>
