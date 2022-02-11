@@ -8,7 +8,7 @@ const Predict = () => {
   return (
     <>
       <Head>
-        <title>今週の重賞</title>
+        <title>今週の重賞予想</title>
       </Head>
       <div className="h-auto bg-green-300">
         <Header />
