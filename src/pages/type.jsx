@@ -36,11 +36,11 @@ const ITEMS = [
     title: "キタサンブラック",
   },
   {
-    href: "/seeds/kitasanbrack",
+    href: "/seeds/silverstate",
     title: "シルバーステート",
   },
   {
-    href: "/seeds/kitasanbrack",
+    href: "/seeds/kingman",
     title: "kingman",
   },
 ];
@@ -51,7 +51,7 @@ const Type = () => {
       <Head>
         <title>好走できる種牡馬一覧</title>
       </Head>
-      <div className="h-full bg-green-300 pb-10">
+      <div className="h-auto bg-green-300 pb-10">
         <Header />
         <div className="text-4xl font-bold mx-40 my-10">代表種牡馬一覧</div>
         {ITEMS.map((item) => {
@@ -63,8 +63,8 @@ const Type = () => {
             </div>
           );
         })}
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };

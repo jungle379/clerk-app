@@ -77,8 +77,8 @@ const Fields = () => {
             </h3>
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };
