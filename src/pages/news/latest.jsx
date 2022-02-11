@@ -51,8 +51,8 @@ const Latest = () => {
             })}
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };

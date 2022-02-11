@@ -21,8 +21,8 @@ const Overseas = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };
