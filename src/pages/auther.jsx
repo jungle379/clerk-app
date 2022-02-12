@@ -16,20 +16,20 @@ const Auther = () => {
       <Head>
         <title>作者について</title>
       </Head>
-      <div className="h-screen bg-green-300">
+      <div className="h-auto bg-green-300">
         <Header />
         <div className="py-10 flex">
           <Sidevar />
           <div className="mx-10 text-2xl font-bold">
             当サイトの作者について
-            <div className="text-4xl text-blue-500 ml-20 my-10 flex">
+            <div className="text-2xl text-blue-500 ml-20 my-10 flex">
               <FontAwesomeIcon className="h-10 mr-5" icon={faTwitterSquare} />
               <FontAwesomeIcon className="h-10 mr-5" icon={faChevronRight} />
               <Link href="https://twitter.com/hirokimorino">
                 <a>twitter</a>
               </Link>
             </div>
-            <div className="text-4xl text-blue-700 ml-20 my-10">
+            <div className="text-2xl text-blue-700 ml-20 my-10 flex">
               <FontAwesomeIcon className="h-10 mr-5" icon={faFacebookSquare} />
               <FontAwesomeIcon className="h-10 mr-5" icon={faChevronRight} />
               <Link href="https://www.facebook.com/hiroki.morino.9">
@@ -38,8 +38,8 @@ const Auther = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };
