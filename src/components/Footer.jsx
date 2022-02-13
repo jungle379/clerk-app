@@ -11,7 +11,7 @@ const Footer = () => (
         </div>
         <div className="hover:text-red-500">***</div>
         <div className="hover:text-red-500">***</div>
-        <div className="hover:text-red-500">***</div>
+        {/* <div className="hover:text-red-500">***</div> */}
       </div>
       <div className="py-10 flex justify-center md:text-2xl">
         <a
