@@ -27,16 +27,16 @@ const Predict = () => {
                   <a>小倉大賞典(G3)15:35/2000m</a>
                 </Link>
               </h2>
-              <h2 className="border-2 h-[120px] py-10 px-5 hover:underline">
+              <h3 className="border-2 h-[120px] py-10 px-5 hover:underline">
                 <Link href="../race2">
-                  <a>ダイヤモンドS(G3)15:35/2000m</a>
+                  <a>ダイヤモンドS(G3)15:45/3400m</a>
                 </Link>
-              </h2>
-              <h2 className="border-2 h-[120px] py-10 px-5 hover:underline">
+              </h3>
+              <h4 className="border-2 h-[120px] py-10 px-5 hover:underline">
                 <Link href="../race2">
-                  <a>京都牝馬S(G3)15:45/2000m</a>
+                  <a>京都牝馬S(G3)15:35/1400m</a>
                 </Link>
-              </h2>
+              </h4>
             </div>
           </div>
         </div>
