@@ -3,7 +3,7 @@ import Link from "next/Link";
 const Footer = () => (
   <>
     <div className="bg-green-300n border-t-2">
-      <div className="flex justify-between mt-10 mx-10 px-20">
+      <div className="flex justify-between mt-5 mx-10 px-20">
         <div className="hover:text-red-500">
           <Link href="/">
             <a>このサイトについて</a>
