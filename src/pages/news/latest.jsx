@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Sidevar from "../../components/sidevar";
 
 const ITEMS = [
   {
@@ -35,14 +34,14 @@ const Latest = () => {
       <div className="h-auto bg-green-300">
         <Header />
         <div className="py-10">
-          <div className="md:text-4xl mx-10 my-10 text-pink-400 font-bold w-4/5">
+          <div className="md:text-4xl mx-20 my-10 text-pink-400 font-bold w-4/5">
             最新のニュース
           </div>
           {ITEMS.map((item) => {
             return (
               <div className="md:text-2xl text-blue-600">
                 <a href={item.href}>
-                  <div className="border-2 h-[120px] py-10 px-5 hover:underline">
+                  <div className="border-2 h-[120px] py-10 px-5 hover:underline mx-20 hover:text-red-600">
                     <li>{item.title}</li>
                   </div>
                 </a>
