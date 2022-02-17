@@ -18,7 +18,7 @@ const Race1 = () => {
           <div className="text-4xl my-10">有力馬一覧</div>
           <div>・ソリストサンダー・NGH</div>
           <div>・レッドルゼル・絶対軸・最悪データ</div>
-          <div></div>
+          <div>・テイエムサウスダン・紐解き</div>
         </div>
         <Footer />
       </div>
