@@ -19,6 +19,8 @@ const Race1 = () => {
           <div>・ソリストサンダー・NGH</div>
           <div>・レッドルゼル・絶対軸・最悪データ</div>
           <div>・テイエムサウスダン・紐解き</div>
+          <div>・エアスピネル</div>
+          <div>・アルクトス</div>
         </div>
         <Footer />
       </div>
