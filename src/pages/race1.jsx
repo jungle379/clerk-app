@@ -20,7 +20,7 @@ const Race1 = () => {
           <div>・レッドルゼル・絶対軸・最悪データ</div>
           <div>・テイエムサウスダン・紐解き</div>
           <div>・エアスピネル</div>
-          <div>・アルクトス</div>
+          <div>・アルクトス/内枠は不利s</div>
         </div>
         <Footer />
       </div>
