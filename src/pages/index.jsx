@@ -15,7 +15,7 @@ const Home = () => {
         <div className="py-10 flex">
           <Sidevar />
           <div className="text-4xl mx-10 font-bold w-4/5">
-            記録・分析など
+            〜MENUS〜
             <div className="flex justify-between text-2xl my-20 px-5">
               <div className="hover:text-red-400">
                 <Link href="../predict">
