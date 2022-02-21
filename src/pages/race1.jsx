@@ -5,7 +5,7 @@ const Race1 = () => {
   return (
     <>
       <Head>
-        <title>中山記念/中山/・1800m</title>
+        <title>中山記念/中山/1800m</title>
       </Head>
       <div className="bg-green-300 h-screen">
         <div className="text-6xl mx-10 py-10">中山記念</div>
@@ -13,7 +13,7 @@ const Race1 = () => {
           <li>馬場傾向</li>
           <li>馬場状況</li>
           <div className="text-4xl my-10">有力馬一覧</div>
-          <div></div>
+          <div>・ダノンザキッド/絶対軸</div>
           <div></div>
           <div></div>
           <div></div>

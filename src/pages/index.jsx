@@ -15,7 +15,7 @@ const Home = () => {
         <div className="py-10 flex">
           <Sidevar />
           <div className="text-4xl mx-10 font-bold w-4/5">
-            〜MENUS〜
+            〜MENU〜
             <div className="flex justify-between text-2xl my-20 px-5">
               <div className="hover:text-red-400">
                 <Link href="../predict">
@@ -29,7 +29,7 @@ const Home = () => {
               </div>
               <div className="hover:text-red-400">
                 <Link href="../type">
-                  <a>・血統、産駒</a>
+                  <a>・血統</a>
                 </Link>
               </div>
               <div className="hover:text-red-400">
