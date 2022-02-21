@@ -24,7 +24,7 @@ const Predict = () => {
               </h1>
               <h2 className="border-2 h-[120px] py-10 px-5 hover:underline">
                 <Link href="../race2">
-                  <a>阪急杯(G3)15:35/1200m</a>
+                  <a>阪急杯(G3)15:35/1400m</a>
                 </Link>
               </h2>
             </div>

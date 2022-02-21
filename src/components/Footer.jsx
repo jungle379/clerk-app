@@ -9,8 +9,16 @@ const Footer = () => (
             <a>このサイトについて</a>
           </Link>
         </div>
-        <div className="hover:text-red-500">***</div>
-        <div className="hover:text-red-500">***</div>
+        <div className="hover:text-red-500">
+          <Link href="/">
+            <a>***</a>
+          </Link>
+        </div>
+        <div className="hover:text-red-500">
+          <Link href="/">
+            <a>***</a>
+          </Link>
+        </div>
       </div>
       <div className="py-10 flex justify-center md:text-2xl">
         <a
