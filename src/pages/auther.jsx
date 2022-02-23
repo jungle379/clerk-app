@@ -22,6 +22,7 @@ const Auther = () => {
           <Sidevar />
           <div className="mx-10 text-2xl font-bold">
             当サイトの作者について
+            <div className="mx-10 my-10">SNS</div>
             <div className="text-2xl text-blue-500 ml-20 my-10 flex">
               <FontAwesomeIcon className="h-10 mr-5" icon={faTwitterSquare} />
               <FontAwesomeIcon className="h-10 mr-5" icon={faChevronRight} />
