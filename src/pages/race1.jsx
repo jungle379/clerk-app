@@ -12,7 +12,7 @@ const Race1 = () => {
         <div className="mx-20 text-2xl my-10">
           <li>馬場傾向</li>
           <ul className="px-10">
-            →開幕週だけに内側の先行馬に有利。上がり32秒であれば差しも届く。
+            →開幕週だけに内側の先行馬に有利。ただし、上がり32秒であれば差しも届く。
           </ul>
           <li>馬場状況</li>
           <div className="text-4xl my-10">有力馬一覧</div>
