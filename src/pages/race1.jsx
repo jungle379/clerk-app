@@ -15,6 +15,9 @@ const Race1 = () => {
           <li>馬場状況</li>
           <div className="text-4xl my-10">有力馬一覧</div>
           <div>・</div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
         <Footer />
       </div>
