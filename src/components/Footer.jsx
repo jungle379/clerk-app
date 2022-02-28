@@ -15,8 +15,8 @@ const Footer = () => (
           </Link>
         </div>
         <div className="hover:text-red-500 px-40">
-          <Link href="/">
-            <a>成績</a>
+          <Link href="../words">
+            <a>勝つための訓示</a>
           </Link>
         </div>
       </div>
