@@ -60,7 +60,7 @@ const Type = () => {
         <div className="text-4xl font-bold mx-40 my-10">代表種牡馬一覧</div>
         {ITEMS.map((item) => {
           return (
-            <div className="text-2xl mt-10 mx-40 text-blue-500 w-[500px]">
+            <div className="text-2xl mt-10 mx-40 text-blue-600 w-[500px]">
               <a href={item.href}>
                 <li>{item.title}</li>
               </a>
