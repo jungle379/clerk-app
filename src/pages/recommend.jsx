@@ -43,7 +43,7 @@ const Recommend = () => {
             </div>
             {ITEMS.map((item) => {
               return (
-                <div className="text-2xl my-10 mx-20 text-blue-500 w-1/6">
+                <div className="text-2xl my-10 mx-20 text-blue-600 w-1/6">
                   <a href={item.href}>
                     <li>{item.title}</li>
                   </a>
