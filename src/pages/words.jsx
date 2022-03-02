@@ -7,7 +7,7 @@ const Words = () => {
   return (
     <>
       <Head>
-        <title>絶対に勝つための訓示</title>
+        <title>絶対に勝つために</title>
       </Head>
       <div className="h-auto bg-green-300">
         <Header />
@@ -23,10 +23,10 @@ const Words = () => {
               勝つイメージを初戦で付ける
             </li>
             <li className="md:text-2xl my-10 font-bold">
-              流れを変えようと無茶はしない
+              流れを変えようと無茶はしない.流れを変えるためなら見に回す
             </li>
             <li className="md:text-2xl my-10 font-bold">
-              流れを変えるためなら見に回す
+              単複のみでもプラスは可能
             </li>
           </div>
         </div>
