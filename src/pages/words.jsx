@@ -15,7 +15,19 @@ const Words = () => {
           <Sidevar />
           <div className="md:text-4xl mx-10 font-extrabold w-4/5">
             競馬で勝つためには
-            <li className="md:text-2xl my-10 font-bold">深追いはしない</li>
+            <li className="md:text-2xl my-10 font-bold">
+              深追いはしない。そのために線引きを最初に行う
+            </li>
+            <li className="md:text-2xl my-10 font-bold">幅を広くしない</li>
+            <li className="md:text-2xl my-10 font-bold">
+              勝つイメージを初戦で付ける
+            </li>
+            <li className="md:text-2xl my-10 font-bold">
+              流れを変えようと無茶はしない
+            </li>
+            <li className="md:text-2xl my-10 font-bold">
+              流れを変えるためなら見に回す
+            </li>
           </div>
         </div>
         <Footer />
