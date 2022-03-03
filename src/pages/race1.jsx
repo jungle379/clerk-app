@@ -15,10 +15,10 @@ const Race1 = () => {
           <li>馬場状況</li>
           <ul>重馬場での開催時には上がり最速馬が差し切り勝利</ul>
           <div className="text-2xl my-10">有力馬一覧</div>
-          <div>・ジャスティンロック/NGH</div>
+          <div>・ジャスティンロック/NGH/紐解き</div>
           <div>・ボーンディスウェイ/NGH</div>
           <div>・・ドウデュース/絶対軸</div>
-          <div></div>
+          <div>・ラーグルフ/紐解き</div>
         </div>
         <Footer />
       </div>
