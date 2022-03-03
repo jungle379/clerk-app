@@ -17,7 +17,7 @@ const Race1 = () => {
           <div className="text-2xl my-10">有力馬一覧</div>
           <div>・ジャスティンロック/NGH/紐解き</div>
           <div>・ボーンディスウェイ/NGH</div>
-          <div>・・ドウデュース/絶対軸</div>
+          <div>・ドウデュース/絶対軸</div>
           <div>・ラーグルフ/紐解き</div>
         </div>
         <Footer />
