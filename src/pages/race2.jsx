@@ -5,7 +5,7 @@ const Race2 = () => {
   return (
     <>
       <Head>
-        <title>金鯱賞/阪神/2000m</title>
+        <title>金鯱賞/中京/2000m</title>
       </Head>
       <div className="bg-green-300 h-screen">
         <div className="text-4xl mb-10">金鯱賞</div>
