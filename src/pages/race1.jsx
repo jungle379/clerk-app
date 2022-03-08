@@ -5,7 +5,7 @@ const Race1 = () => {
   return (
     <>
       <Head>
-        <title>中山牝馬S/中山/1600m</title>
+        <title>中山牝馬S/中山/1800m</title>
       </Head>
       <div className="bg-green-300 h-screen">
         <div className="text-4xl mx-10 py-10">中山牝馬S</div>
@@ -15,7 +15,7 @@ const Race1 = () => {
           <li>馬場状況</li>
           <ul></ul>
           <div className="text-2xl my-10">有力馬一覧</div>
-          <div></div>
+          <div>・ドナアトラエンテ/絶対軸</div>
         </div>
         <Footer />
       </div>

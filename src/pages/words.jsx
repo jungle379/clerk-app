@@ -20,7 +20,7 @@ const Words = () => {
             </li>
             <li className="md:text-2xl my-10 font-bold">幅を広くしない</li>
             <li className="md:text-2xl my-10 font-bold">
-              勝つイメージを初戦で付ける
+              勝つイメージを初戦で付ける。そのために小額からコツコツ始める
             </li>
             <li className="md:text-2xl my-10 font-bold">
               流れを変えようと無茶はしない.流れを変えるためなら見に回す

@@ -9,14 +9,17 @@ const Race2 = () => {
       </Head>
       <div className="bg-green-300 h-screen">
         <div className="text-4xl mb-10">金鯱賞</div>
-        <li>馬場傾向</li>
-        <ul></ul>
-        <li>馬場状況</li>
-        <div className="text-2xl my-10">有力馬一覧</div>
-        <div>・ジャックドール/NGH</div>
-        <div>・ポタジェ/絶対軸</div>
-        <div></div>
-        <div></div>
+        <div className="mx-20 text-2xl my-10">
+          <li>馬場傾向</li>
+          <ul></ul>
+
+          <li>馬場状況</li>
+          <div className="text-2xl my-10">有力馬一覧</div>
+          <div>・ジャックドール/NGH</div>
+          <div>・ポタジェ/絶対軸</div>
+          <div></div>
+          <div></div>
+        </div>
         <Footer />
       </div>
     </>

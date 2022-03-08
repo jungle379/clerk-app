@@ -19,12 +19,12 @@ const Predict = () => {
             <div className="md:text-2xl my-10 text-blue-600">
               <h1 className="border-2 h-[120px] py-10 px-5 hover:underline">
                 <Link href="../race1">
-                  <a>中山牝馬S(G3)15:45/1600m</a>
+                  <a>中山牝馬S(G3)15:45/1800m</a>
                 </Link>
               </h1>
               <h2 className="border-2 h-[120px] py-10 px-5 hover:underline">
                 <Link href="../race2">
-                  <a>金鯱賞(G2)15:35/2000m</a>
+                  <a>金鯱賞(G2)15:25/2000m</a>
                 </Link>
               </h2>
             </div>
