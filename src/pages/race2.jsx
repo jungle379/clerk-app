@@ -12,7 +12,6 @@ const Race2 = () => {
         <div className="mx-20 text-2xl my-10">
           <li>馬場傾向</li>
           <ul></ul>
-
           <li>馬場状況</li>
           <div className="text-2xl my-10">有力馬一覧</div>
           <div>・ジャックドール/NGH</div>
