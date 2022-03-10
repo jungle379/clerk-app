@@ -27,7 +27,9 @@ const Predict = () => {
                   <a>金鯱賞(G2)15:25/2000m</a>
                 </Link>
               </h2>
-              <h3>※フィリーズRと障害重賞は除いています。</h3>
+              <h3 className="my-10 text-black">
+                ※フィリーズRと障害重賞は除いています。
+              </h3>
             </div>
           </div>
         </div>
