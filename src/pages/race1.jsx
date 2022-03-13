@@ -5,10 +5,10 @@ const Race1 = () => {
   return (
     <>
       <Head>
-        <title>中山牝馬S/中山/1800m</title>
+        <title>阪神大賞典/阪神/3000m</title>
       </Head>
       <div className="bg-green-300 h-screen">
-        <div className="text-4xl mx-10 py-10"></div>
+        <div className="text-4xl mx-10 py-10">阪神大賞典</div>
         <div className="mx-20 text-2xl my-10">
           <li>馬場傾向</li>
           <ul className="px-10"></ul>
