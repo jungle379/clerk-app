@@ -22,14 +22,6 @@ const Predict = () => {
                   <a>阪神大賞典(G2)15:45/3000m</a>
                 </Link>
               </h1>
-              {/* <h2 className="border-2 h-[120px] py-10 px-5 hover:underline">
-                <Link href="../race2">
-                  <a>金鯱賞(G2)15:25/2000m</a>
-                </Link>
-              </h2> */}
-              <h3 className="my-10 text-black">
-                ※フィリーズRと障害重賞は除いています。
-              </h3>
             </div>
           </div>
         </div>
