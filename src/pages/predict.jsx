@@ -18,7 +18,7 @@ const Predict = () => {
             今週の重賞
             <div className="md:text-2xl my-10 text-blue-600">
               <h1 className="border-2 h-[120px] py-10 px-5 hover:underline">
-                <Link href="../race1">
+                <Link href="../race/race1">
                   <a>阪神大賞典(G2)15:45/3000m</a>
                 </Link>
               </h1>

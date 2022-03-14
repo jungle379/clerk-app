@@ -1,20 +1,21 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
+import Footer from "../../components/Footer";
 
-const Race1 = () => {
+const Race2 = () => {
   return (
     <>
       <Head>
-        <title>阪神大賞典/阪神/3000m</title>
+        <title>//m</title>
       </Head>
       <div className="bg-green-300 h-screen">
-        <div className="text-4xl mx-10 py-10">阪神大賞典</div>
+        <div className="text-4xl mb-10"></div>
         <div className="mx-20 text-2xl my-10">
           <li>馬場傾向</li>
-          <ul className="px-10"></ul>
-          <li>馬場状況</li>
           <ul></ul>
+          <li>馬場状況</li>
           <div className="text-2xl my-10">有力馬一覧</div>
+          <div></div>
+          <div></div>
         </div>
         <Footer />
       </div>
@@ -22,4 +23,4 @@ const Race1 = () => {
   );
 };
 
-export default Race1;
+export default Race2;
