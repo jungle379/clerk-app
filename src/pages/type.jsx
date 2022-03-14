@@ -53,20 +53,22 @@ const Type = () => {
   return (
     <>
       <Head>
-        <title>好走できる種牡馬一覧</title>
+        <title>代表種牡馬一覧</title>
       </Head>
       <div className="h-auto bg-green-300 pb-10">
-        <Header />
-        <div className="text-4xl font-bold mx-40 my-10">代表種牡馬一覧</div>
-        {ITEMS.map((item) => {
-          return (
-            <div className="text-2xl mt-10 mx-40 text-blue-600 w-[500px]">
-              <a href={item.href}>
-                <li>{item.title}</li>
-              </a>
-            </div>
-          );
-        })}
+        <div className="mb-10">
+          <Header />
+          <div className="text-4xl font-bold mx-40 my-10">代表種牡馬一覧</div>
+          {ITEMS.map((item) => {
+            return (
+              <div className="text-2xl mt-10 mx-40 text-blue-600 w-[500px]">
+                <a href={item.href}>
+                  <li>{item.title}</li>
+                </a>
+              </div>
+            );
+          })}
+        </div>
         <Footer />
       </div>
     </>
