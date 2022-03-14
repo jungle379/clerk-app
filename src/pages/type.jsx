@@ -47,6 +47,14 @@ const ITEMS = [
     href: "/seeds/american",
     title: "アメリカンペイトリオット",
   },
+  {
+    href: "/seeds/american",
+    title: "オルフェーブル",
+  },
+  {
+    href: "/seeds/american",
+    title: "ゴールドシップ",
+  },
 ];
 
 const Type = () => {
