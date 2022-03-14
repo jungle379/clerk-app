@@ -38,7 +38,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex justify-between text-2xl my-20 px-5">
+            <div className="flex justify-between text-2xl my-40 px-5">
               <div className="text-2xl hover:text-red-400 font-bold">
                 <Link href="../recommend">
                   <a>・一押しウマ</a>

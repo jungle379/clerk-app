@@ -3,18 +3,18 @@ import Link from "next/Link";
 const Footer = () => (
   <>
     <div className="bg-green-300n border-t-2">
-      <div className="flex justify-between mt-5">
-        <div className="hover:text-red-500 px-40">
+      <div className="flex justify-between mt-10">
+        <div className="hover:text-red-500 px-40 md:text-xl">
           <Link href="/">
             <a>このサイトについて</a>
           </Link>
         </div>
-        <div className="hover:text-red-500 px-40">
+        <div className="hover:text-red-500 px-40 md:text-xl">
           <Link href="/">
             <a>広告</a>
           </Link>
         </div>
-        <div className="hover:text-red-500 px-40">
+        <div className="hover:text-red-500 px-40 md:text-xl">
           <Link href="../words">
             <a>勝つための訓示</a>
           </Link>
