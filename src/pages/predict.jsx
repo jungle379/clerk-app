@@ -14,7 +14,7 @@ const Predict = () => {
         <Header />
         <div className="flex py-10">
           <Sidevar />
-          <div className="md:text-4xl mx-10 text-pink-400 font-bold w-4/5">
+          <div className="md:text-4xl mx-10 font-bold w-4/5">
             今週の重賞
             <div className="md:text-2xl my-10 text-blue-600">
               <h1 className="border-2 h-[120px] py-10 px-5 hover:underline">

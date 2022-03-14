@@ -26,7 +26,7 @@ const Words = () => {
               流れを変えようと無茶はしない.流れを変えるためなら見に回す
             </li>
             <li className="md:text-2xl my-10 font-bold">
-              単複のみでもプラスは可能
+              単複のみでもプラスは可能。配分の妙味を考えるべし
             </li>
           </div>
         </div>
